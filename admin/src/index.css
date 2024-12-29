@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Pacifico&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Lexend:wght@100..900&family=Pacifico&family=Yatra+One&display=swap');
+@font-face {
+  font-family: 'woodcut'; /* Name of the font */
+  src: url('src/fonts/WOODCUT.ttf') format('truetype'); /* Path to the font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+    /* color: white; */
+    background-color: black;
+}
+body{
+    min-height: 100vh;
+    background-color: #fcfcfc;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #a9a9a9;
+}
+.app-content{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+.Toastify__toast {
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: '#1f1f1f';
+    color: '#ffffff';          
+    border: '1px solid #4caf50'; 
+  }
+  
+  .Toastify__toast--error {
+    background-color: '#1f1f1f';
+    color: '#ff6666';          
+    border: '1px solid #ff4444';
+  }
