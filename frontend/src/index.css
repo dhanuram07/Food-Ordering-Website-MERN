@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Pacifico&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Lexend:wght@100..900&family=Pacifico&family=Yatra+One&display=swap');
+@font-face {
+  font-family: 'woodcut'; /* Name of the font */
+  src: url('src/fonts/WOODCUT.ttf') format('truetype'); /* Path to the font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Lexend;
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/04/24/19/47/1000_F_424194700_YLn8PuaiqR36LI84T9E76ATDd6HrU2at.jpg');
+  background-size: contain;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  /* background-color: #E3963E; */
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
