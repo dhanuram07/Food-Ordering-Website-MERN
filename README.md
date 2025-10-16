@@ -37,7 +37,6 @@ AdugeMane is a responsive food ordering web application built on the **MERN stac
 # Steps
 
 1. **Install Dependencies**  
-    Navigate to each folder (`admin`, `backend`, `frontend`) and run the following command in the terminal:  
     Navigate to each folder (`admin`, `backend`, `frontend`) & run the following command in the terminal:  
     ```bash
     npm install
